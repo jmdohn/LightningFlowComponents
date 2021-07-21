@@ -3,6 +3,7 @@
     <contextRecordType>Contact</contextRecordType>
     <label>NextStepsStrategy</label>
     <recommendationLoad>
+        <childNode>Get_Chocolate</childNode>
         <label>Get Cupcakes</label>
         <name>Get_Cupcakes</name>
         <condition>
@@ -14,6 +15,7 @@
             </value>
         </condition>
         <conditionLogic>and</conditionLogic>
+        <object>Recommendation</object>
     </recommendationLoad>
     <recommendationLoad>
         <label>Get Chocolate</label>
@@ -27,11 +29,11 @@
             </value>
         </condition>
         <conditionLogic>and</conditionLogic>
+        <object>Recommendation</object>
     </recommendationLoad>
     <union>
         <childNode>Get_Cupcakes</childNode>
-        <childNode>Get_Chocolate</childNode>
         <label>Output</label>
-        <name>Output_57c480413c814f03ad4a073cc097b460</name>
+        <name>Output_57fca7c98c2e4704a788ed71d051ca87</name>
     </union>
 </RecommendationStrategy>

@@ -6,6 +6,12 @@ project:
         api_version: '52.0'
     git:
     source_format: sfdx
+    dependencies:
+        #Flow Base Components
+        - version_id: 04tf4000004PuQcAAK
+
+        #Flow Action Base Pack
+        - version_id: 04t4W00000307ppQAA
 
 tasks:
     robot:

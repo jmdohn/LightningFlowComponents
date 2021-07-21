@@ -1,28 +1,353 @@
 {
   "packageDirectories": [
     {
-      "path": "flow_action_components",
-      "default": false
-    },
-    {
       "path": "force-app",
       "default": true
     },
     {
-      "path": "flow-apps",
-      "default": false
+        "path":  "flow_action_components/AddQuotesToFields/force-app"
     },
     {
-      "path": "flow_process_components",
-      "default": false
+        "path":  "flow_action_components/AutolaunchFlow/force-app"
     },
     {
-      "path": "flow_screen_components",
-      "default": false
+        "path":  "flow_action_components/CacheActions/force-app"
     },
     {
-      "path": "lightning_page_components",
-      "default": false
+        "path":  "flow_action_components/CheckValidation/force-app"
+    },
+    {
+        "path":  "flow_action_components/CollectionProcessors/force-app"
+    },
+    {
+        "path":  "flow_action_components/CommitTransaction/force-app"
+    },
+    {
+        "path":  "flow_action_components/ConvertCSVandStringCollection/force-app"
+    },
+    {
+        "path":  "flow_action_components/ConvertCSVToRecords/force-app"
+    },
+    {
+        "path":  "flow_action_components/DateMatcher/force-app"
+    },
+    {
+        "path":  "flow_action_components/DedupeRecordCollection/force-app"
+    },
+    {
+        "path":  "flow_action_components/DynamicFlowPackage/force-app"
+    },
+    {
+        "path":  "flow_action_components/EvaluateFormula/force-app"
+    },
+    {
+        "path":  "flow_action_components/ExecuteNBAStrategy/force-app"
+    },
+    {
+        "path":  "flow_action_components/ExecuteSOQLQuery/force-app"
+    },
+    {
+        "path":  "flow_action_components/ExtractTextFromNonTextField/force-app"
+    },
+    {
+        "path":  "flow_action_components/FilterCollection/force-app"
+    },
+    {
+        "path":  "flow_action_components/FindSObjectName/force-app"
+    },
+    {
+        "path":  "flow_action_components/FlowActionsBasePack/force-app"
+    },
+    {
+        "path":  "flow_action_components/GenerateFlowLink/force-app"
+    },
+    {
+        "path":  "flow_action_components/GetFieldInformation/force-app"
+    },
+    {
+        "path":  "flow_action_components/GetFieldSetValues/force-app"
+    },
+    {
+        "path":  "flow_action_components/GetFlowInfo/force-app"
+    },
+    {
+        "path":  "flow_action_components/GetGroupInfo/force-app"
+    },
+    {
+        "path":  "flow_action_components/GetLayoutByProfileandRecordType/force-app"
+    },
+    {
+        "path":  "flow_action_components/GetLayoutFields/force-app"
+    },
+    {
+        "path":  "flow_action_components/GetOpportunityPartners/force-app"
+    },
+    {
+        "path":  "flow_action_components/GetPicklistValues/force-app"
+    },
+    {
+        "path":  "flow_action_components/GetRandomNumber/force-app"
+    },
+    {
+        "path":  "flow_action_components/GetRecordTypeInfobyObject/force-app"
+    },
+    {
+        "path":  "flow_action_components/HTTPBuilder/force-app"
+    },
+    {
+        "path":  "flow_action_components/LaunchFlowDynamically/force-app"
+    },
+    {
+        "path":  "flow_action_components/ListViewActions/force-app"
+    },
+    {
+        "path":  "flow_action_components/LoadWebPage/force-app"
+    },
+    {
+        "path":  "flow_action_components/ManageFlowInstances/force-app"
+    },
+    {
+        "path":  "flow_action_components/ManageTerritories/force-app"
+    },
+    {
+        "path":  "flow_action_components/MapDataAction/force-app"
+    },
+    {
+        "path":  "flow_action_components/MassTransactor/force-app"
+    },
+    {
+        "path":  "flow_action_components/MSTeamsActions/force-app"
+    },
+    {
+        "path":  "flow_action_components/MultiselectMagic/force-app"
+    },
+    {
+        "path":  "flow_action_components/NavigateEverywhere/force-app"
+    },
+    {
+        "path":  "flow_action_components/OpenURL/force-app"
+    },
+    {
+        "path":  "flow_action_components/PostRichChatter/force-app"
+    },
+    {
+        "path":  "flow_action_components/Quip/force-app"
+    },
+    {
+        "path":  "flow_action_components/RefreshCollectionAction/force-app"
+    },
+    {
+        "path":  "flow_action_components/RefreshRecords/force-app"
+    },
+    {
+        "path":  "flow_action_components/SaveRecordsAsync/force-app"
+    },
+    {
+        "path":  "flow_action_components/SendBetterEmail/force-app"
+    },
+    {
+        "path":  "flow_action_components/SendHTMLEmail/force-app"
+    },
+    {
+        "path":  "flow_action_components/SendRichEmailCPE/force-app"
+    },
+    {
+        "path":  "flow_action_components/SerializeDeserialize/force-app"
+    },
+    {
+        "path":  "flow_action_components/SetSharingManually/force-app"
+    },
+    {
+        "path":  "flow_action_components/ShowToast/force-app"
+    },
+    {
+        "path":  "flow_action_components/SlackActions/force-app"
+    },
+    {
+        "path":  "flow_action_components/StringChangers/force-app"
+    },
+    {
+        "path":  "flow_action_components/TheFloverrider/force-app"
+    },
+    {
+        "path":  "flow_action_components/UnlockRecords/force-app"
+    },
+    {
+        "path":  "flow_action_components/UpdateFields/force-app"
+    },
+    {
+        "path":  "flow_process_components/EmailToFlow/force-app"
+    },
+    {
+        "path":  "flow_process_components/FlowBaseComponents/force-app"
+    },
+    {
+        "path":  "flow_process_components/flowCombobox/force-app"
+    },
+    {
+        "path":  "flow_process_components/FormulasAndExpressionsLWC/force-app"
+    },
+    {
+        "path":  "flow_process_components/MetadataService/force-app"
+    },
+    {
+        "path":  "flow_process_components/ScreenFlow/force-app"
+    },
+    {
+      "path":  "flow_screen_components/barcodeScanner/force-app"
+    },
+    {
+        "path":  "flow_screen_components/clipboardButton/force-app"
+    },
+    {
+        "path":  "flow_screen_components/controllableDisplayTextFSC/force-app"
+    },
+    {
+        "path":  "flow_screen_components/custom-header/force-app"
+    },
+    {
+        "path":  "flow_screen_components/customFooterFSC/force-app"
+    },
+    {
+        "path":  "flow_screen_components/datatable/force-app"
+    },
+    {
+        "path":  "flow_screen_components/datatableFSC/force-app"
+    },
+    {
+        "path":  "flow_screen_components/datatableLwcFsc/force-app"
+    },
+    {
+        "path":  "flow_screen_components/datatableV2/force-app"
+    },
+    {
+        "path":  "flow_screen_components/dateTimePicker/force-app"
+    },
+    {
+        "path":  "flow_screen_components/dateTimePickerFSC/force-app"
+    },
+    {
+        "path":  "flow_screen_components/dependentPicklistsFSC/force-app"
+    },
+    {
+        "path":  "flow_screen_components/dualListBoxFSC/force-app"
+    },
+    {
+        "path":  "flow_screen_components/dynamicPicklistFSC/force-app"
+    },
+    {
+        "path":  "flow_screen_components/dynamicQuestionFSC/force-app"
+    },
+    {
+        "path":  "flow_screen_components/fileUploadImproved/force-app"
+    },
+    {
+        "path":  "flow_screen_components/flexcards/force-app"
+    },
+    {
+        "path":  "flow_screen_components/flowButton/force-app"
+    },
+    {
+        "path":  "flow_screen_components/flowButtonBar/force-app"
+    },
+    {
+        "path":  "flow_screen_components/flowCarousel/force-app"
+    },
+    {
+        "path":  "flow_screen_components/flowIframe/force-app"
+    },
+    {
+        "path":  "flow_screen_components/flowListFSC/force-app"
+    },
+    {
+        "path":  "flow_screen_components/flowLookupCPE/force-app"
+    },
+    {
+        "path":  "flow_screen_components/flowLookupFSC/force-app"
+    },
+    {
+        "path":  "flow_screen_components/flowPickerFSC/force-app"
+    },
+    {
+        "path":  "flow_screen_components/FlowScreenComponentsBasePack/force-app"
+    },
+    {
+        "path":  "flow_screen_components/formattedRichTextFSC/force-app"
+    },
+    {
+        "path":  "flow_screen_components/getNBARecommendationsFSC/force-app"
+    },
+    {
+        "path":  "flow_screen_components/horizontalRuleFSC/force-app"
+    },
+    {
+        "path":  "flow_screen_components/ibanLWC/force-app"
+    },
+    {
+        "path":  "flow_screen_components/imageButtonFSC/force-app"
+    },
+    {
+        "path":  "flow_screen_components/inputAddressFSC/force-app"
+    },
+    {
+        "path":  "flow_screen_components/lightningInputFSC/force-app"
+    },
+    {
+        "path":  "flow_screen_components/lookupFSC/force-app"
+    },
+    {
+        "path":  "flow_screen_components/mapFSC/force-app"
+    },
+    {
+        "path":  "flow_screen_components/multiMapFSC/force-app"
+    },
+    {
+        "path":  "flow_screen_components/multiShimFSC/force-app"
+    },
+    {
+        "path":  "flow_screen_components/navigationButtonFSC/force-app"
+    },
+    {
+        "path":  "flow_screen_components/navigationPath/force-app"
+    },
+    {
+        "path":  "flow_screen_components/nextBestActionsFSC/force-app"
+    },
+    {
+        "path":  "flow_screen_components/ObjectAndFieldPickerFSC/force-app"
+    },
+    {
+        "path":  "flow_screen_components/OrderedListBoxFSC/force-app"
+    },
+    {
+        "path":  "flow_screen_components/pdfViewerFSC/force-app"
+    },
+    {
+        "path":  "flow_screen_components/quickChoiceCPE/force-app"
+    },
+    {
+        "path":  "flow_screen_components/quickLookup/force-app"
+    },
+    {
+        "path":  "flow_screen_components/recordDetailFSC/force-app"
+    },
+    {
+        "path":  "flow_screen_components/richTextInputFSC/force-app"
+    },
+    {
+        "path":  "flow_screen_components/scriptDisplayFSC/force-app"
+    },
+    {
+        "path":  "flow_screen_components/transferMetadata/force-app"
+    },
+    {
+        "path":  "flow_screen_components/workGuide/force-app"
+    },
+    {
+        "path":  "lightning_page_components/DetectAndLaunch/force-app"
+    },
+    {
+        "path":  "lightning_page_components/reventer/force-app"
     }
   ],
   "namespace": "",

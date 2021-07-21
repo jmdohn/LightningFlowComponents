@@ -19,3 +19,953 @@ tasks:
             path: robot/LightningFlowComponents/tests
             output: robot/LightningFlowComponents/doc/LightningFlowComponents_tests.html
 
+    deploy_AddQuotesToFields:
+        description: Deploys configuration for Development. Assigns page layouts, compact layouts, and sets tab visibilities. Record type visibilities are set in the update_admin_profile task.
+        class_path: cumulusci.tasks.salesforce.Deploy
+        options:
+            path: flow_action_components/AddQuotesToFields/force-app
+
+    deploy_AutolaunchFlow:
+        description: Deploys configuration for Development. Assigns page layouts, compact layouts, and sets tab visibilities. Record type visibilities are set in the update_admin_profile task.
+        class_path: cumulusci.tasks.salesforce.Deploy
+        options:
+            path: flow_action_components/AutolaunchFlow/force-app
+
+    deploy_CacheActions:
+        description: Deploys configuration for Development. Assigns page layouts, compact layouts, and sets tab visibilities. Record type visibilities are set in the update_admin_profile task.
+        class_path: cumulusci.tasks.salesforce.Deploy
+        options:
+            path: flow_action_components/CacheActions/force-app
+
+    deploy_CheckValidation:
+        description: Deploys configuration for Development. Assigns page layouts, compact layouts, and sets tab visibilities. Record type visibilities are set in the update_admin_profile task.
+        class_path: cumulusci.tasks.salesforce.Deploy
+        options:
+            path: flow_action_components/CheckValidation/force-app
+
+    deploy_CollectionProcessors:
+        description: Deploys configuration for Development. Assigns page layouts, compact layouts, and sets tab visibilities. Record type visibilities are set in the update_admin_profile task.
+        class_path: cumulusci.tasks.salesforce.Deploy
+        options:
+            path: flow_action_components/CollectionProcessors/force-app
+
+    deploy_CommitTransaction:
+        description: Deploys configuration for Development. Assigns page layouts, compact layouts, and sets tab visibilities. Record type visibilities are set in the update_admin_profile task.
+        class_path: cumulusci.tasks.salesforce.Deploy
+        options:
+            path: flow_action_components/CommitTransaction/force-app
+
+    deploy_ConvertCSVandStringCollection:
+        description: Deploys configuration for Development. Assigns page layouts, compact layouts, and sets tab visibilities. Record type visibilities are set in the update_admin_profile task.
+        class_path: cumulusci.tasks.salesforce.Deploy
+        options:
+            path: flow_action_components/ConvertCSVandStringCollection/force-app
+
+    deploy_ConvertCSVToRecords:
+        description: Deploys configuration for Development. Assigns page layouts, compact layouts, and sets tab visibilities. Record type visibilities are set in the update_admin_profile task.
+        class_path: cumulusci.tasks.salesforce.Deploy
+        options:
+            path: flow_action_components/ConvertCSVToRecords/force-app
+
+    deploy_DateMatcher:
+        description: Deploys configuration for Development. Assigns page layouts, compact layouts, and sets tab visibilities. Record type visibilities are set in the update_admin_profile task.
+        class_path: cumulusci.tasks.salesforce.Deploy
+        options:
+            path: flow_action_components/DateMatcher/force-app
+
+    deploy_DedupeRecordCollection:
+        description: Deploys configuration for Development. Assigns page layouts, compact layouts, and sets tab visibilities. Record type visibilities are set in the update_admin_profile task.
+        class_path: cumulusci.tasks.salesforce.Deploy
+        options:
+            path: flow_action_components/DedupeRecordCollection/force-app
+
+    deploy_DynamicFlowPackage:
+        description: Deploys configuration for Development. Assigns page layouts, compact layouts, and sets tab visibilities. Record type visibilities are set in the update_admin_profile task.
+        class_path: cumulusci.tasks.salesforce.Deploy
+        options:
+            path: flow_action_components/DynamicFlowPackage/force-app
+
+    deploy_EvaluateFormula:
+        description: Deploys configuration for Development. Assigns page layouts, compact layouts, and sets tab visibilities. Record type visibilities are set in the update_admin_profile task.
+        class_path: cumulusci.tasks.salesforce.Deploy
+        options:
+            path: flow_action_components/EvaluateFormula/force-app
+
+    deploy_ExecuteNBAStrategy:
+        description: Deploys configuration for Development. Assigns page layouts, compact layouts, and sets tab visibilities. Record type visibilities are set in the update_admin_profile task.
+        class_path: cumulusci.tasks.salesforce.Deploy
+        options:
+            path: flow_action_components/ExecuteNBAStrategy/force-app
+
+    deploy_ExecuteSOQLQuery:
+        description: Deploys configuration for Development. Assigns page layouts, compact layouts, and sets tab visibilities. Record type visibilities are set in the update_admin_profile task.
+        class_path: cumulusci.tasks.salesforce.Deploy
+        options:
+            path: flow_action_components/ExecuteSOQLQuery/force-app
+            
+    deploy_ExtractTextFromNonTextField:
+        description: Deploys configuration for Development. Assigns page layouts, compact layouts, and sets tab visibilities. Record type visibilities are set in the update_admin_profile task.
+        class_path: cumulusci.tasks.salesforce.Deploy
+        options:
+            path: flow_action_components/ExtractTextFromNonTextField/force-app
+
+    deploy_FilterCollection:
+        description: Deploys configuration for Development. Assigns page layouts, compact layouts, and sets tab visibilities. Record type visibilities are set in the update_admin_profile task.
+        class_path: cumulusci.tasks.salesforce.Deploy
+        options:
+            path: flow_action_components/FilterCollection/force-app
+
+    deploy_FindSObjectName:
+        description: Deploys configuration for Development. Assigns page layouts, compact layouts, and sets tab visibilities. Record type visibilities are set in the update_admin_profile task.
+        class_path: cumulusci.tasks.salesforce.Deploy
+        options:
+            path: flow_action_components/FindSObjectName/force-app
+
+    deploy_FlowActionsBasePack:
+        description: Deploys configuration for Development. Assigns page layouts, compact layouts, and sets tab visibilities. Record type visibilities are set in the update_admin_profile task.
+        class_path: cumulusci.tasks.salesforce.Deploy
+        options:
+            path: flow_action_components/FlowActionsBasePack/force-app
+
+    deploy_GenerateFlowLink:
+        description: Deploys configuration for Development. Assigns page layouts, compact layouts, and sets tab visibilities. Record type visibilities are set in the update_admin_profile task.
+        class_path: cumulusci.tasks.salesforce.Deploy
+        options:
+            path: flow_action_components/GenerateFlowLink/force-app
+
+    deploy_GetFieldInformation:
+        description: Deploys configuration for Development. Assigns page layouts, compact layouts, and sets tab visibilities. Record type visibilities are set in the update_admin_profile task.
+        class_path: cumulusci.tasks.salesforce.Deploy
+        options:
+            path: flow_action_components/GetFieldInformation/force-app
+
+    deploy_GetFieldSetValues:
+        description: Deploys configuration for Development. Assigns page layouts, compact layouts, and sets tab visibilities. Record type visibilities are set in the update_admin_profile task.
+        class_path: cumulusci.tasks.salesforce.Deploy
+        options:
+            path: flow_action_components/GetFieldSetValues/force-app
+
+    deploy_GetFlowInfo:
+        description: Deploys configuration for Development. Assigns page layouts, compact layouts, and sets tab visibilities. Record type visibilities are set in the update_admin_profile task.
+        class_path: cumulusci.tasks.salesforce.Deploy
+        options:
+            path: flow_action_components/GetFlowInfo/force-app
+
+    deploy_GetGroupInfo:
+        description: Deploys configuration for Development. Assigns page layouts, compact layouts, and sets tab visibilities. Record type visibilities are set in the update_admin_profile task.
+        class_path: cumulusci.tasks.salesforce.Deploy
+        options:
+            path: flow_action_components/GetGroupInfo/force-app
+
+    deploy_GetLayoutByProfileandRecordType:
+        description: Deploys configuration for Development. Assigns page layouts, compact layouts, and sets tab visibilities. Record type visibilities are set in the update_admin_profile task.
+        class_path: cumulusci.tasks.salesforce.Deploy
+        options:
+            path: flow_action_components/GetLayoutByProfileandRecordType/force-app
+
+    deploy_GetLayoutFields:
+        description: Deploys configuration for Development. Assigns page layouts, compact layouts, and sets tab visibilities. Record type visibilities are set in the update_admin_profile task.
+        class_path: cumulusci.tasks.salesforce.Deploy
+        options:
+            path: flow_action_components/GetLayoutFields/force-app
+
+    deploy_GetOpportunityPartners:
+        description: Deploys configuration for Development. Assigns page layouts, compact layouts, and sets tab visibilities. Record type visibilities are set in the update_admin_profile task.
+        class_path: cumulusci.tasks.salesforce.Deploy
+        options:
+            path: flow_action_components/GetOpportunityPartners/force-app
+
+    deploy_GetPicklistValues:
+        description: Deploys configuration for Development. Assigns page layouts, compact layouts, and sets tab visibilities. Record type visibilities are set in the update_admin_profile task.
+        class_path: cumulusci.tasks.salesforce.Deploy
+        options:
+            path: flow_action_components/GetPicklistValues/force-app
+
+    deploy_GetRandomNumber:
+        description: Deploys configuration for Development. Assigns page layouts, compact layouts, and sets tab visibilities. Record type visibilities are set in the update_admin_profile task.
+        class_path: cumulusci.tasks.salesforce.Deploy
+        options:
+            path: flow_action_components/GetRandomNumber/force-app
+
+    deploy_GetRecordTypeInfobyObject:
+        description: Deploys configuration for Development. Assigns page layouts, compact layouts, and sets tab visibilities. Record type visibilities are set in the update_admin_profile task.
+        class_path: cumulusci.tasks.salesforce.Deploy
+        options:
+            path: flow_action_components/GetRecordTypeInfobyObject/force-app
+
+    deploy_HTTPBuilder:
+        description: Deploys configuration for Development. Assigns page layouts, compact layouts, and sets tab visibilities. Record type visibilities are set in the update_admin_profile task.
+        class_path: cumulusci.tasks.salesforce.Deploy
+        options:
+            path: flow_action_components/HTTPBuilder/force-app
+
+    deploy_LaunchFlowDynamically:
+        description: Deploys configuration for Development. Assigns page layouts, compact layouts, and sets tab visibilities. Record type visibilities are set in the update_admin_profile task.
+        class_path: cumulusci.tasks.salesforce.Deploy
+        options:
+            path: flow_action_components/LaunchFlowDynamically/force-app
+
+    deploy_ListViewActions:
+        description: Deploys configuration for Development. Assigns page layouts, compact layouts, and sets tab visibilities. Record type visibilities are set in the update_admin_profile task.
+        class_path: cumulusci.tasks.salesforce.Deploy
+        options:
+            path: flow_action_components/ListViewActions/force-app
+
+    deploy_LoadWebPage:
+        description: Deploys configuration for Development. Assigns page layouts, compact layouts, and sets tab visibilities. Record type visibilities are set in the update_admin_profile task.
+        class_path: cumulusci.tasks.salesforce.Deploy
+        options:
+            path: flow_action_components/LoadWebPage/force-app
+
+    deploy_ManageFlowInstances:
+        description: Deploys configuration for Development. Assigns page layouts, compact layouts, and sets tab visibilities. Record type visibilities are set in the update_admin_profile task.
+        class_path: cumulusci.tasks.salesforce.Deploy
+        options:
+            path: flow_action_components/ManageFlowInstances/force-app
+
+    deploy_ManageTerritories:
+        description: Deploys configuration for Development. Assigns page layouts, compact layouts, and sets tab visibilities. Record type visibilities are set in the update_admin_profile task.
+        class_path: cumulusci.tasks.salesforce.Deploy
+        options:
+            path: flow_action_components/ManageTerritories/force-app
+
+    deploy_MapDataAction:
+        description: Deploys configuration for Development. Assigns page layouts, compact layouts, and sets tab visibilities. Record type visibilities are set in the update_admin_profile task.
+        class_path: cumulusci.tasks.salesforce.Deploy
+        options:
+            path: flow_action_components/MapDataAction/force-app
+
+    deploy_MassTransactor:
+        description: Deploys configuration for Development. Assigns page layouts, compact layouts, and sets tab visibilities. Record type visibilities are set in the update_admin_profile task.
+        class_path: cumulusci.tasks.salesforce.Deploy
+        options:
+            path: flow_action_components/MassTransactor/force-app
+
+    deploy_MSTeamsActions:
+        description: Deploys configuration for Development. Assigns page layouts, compact layouts, and sets tab visibilities. Record type visibilities are set in the update_admin_profile task.
+        class_path: cumulusci.tasks.salesforce.Deploy
+        options:
+            path: flow_action_components/MSTeamsActions/force-app
+
+    deploy_MultiselectMagic:
+        description: Deploys configuration for Development. Assigns page layouts, compact layouts, and sets tab visibilities. Record type visibilities are set in the update_admin_profile task.
+        class_path: cumulusci.tasks.salesforce.Deploy
+        options:
+            path: flow_action_components/MultiselectMagic/force-app
+
+    deploy_NavigateEverywhere:
+        description: Deploys configuration for Development. Assigns page layouts, compact layouts, and sets tab visibilities. Record type visibilities are set in the update_admin_profile task.
+        class_path: cumulusci.tasks.salesforce.Deploy
+        options:
+            path: flow_action_components/NavigateEverywhere/force-app
+
+    deploy_OpenURL:
+        description: Deploys configuration for Development. Assigns page layouts, compact layouts, and sets tab visibilities. Record type visibilities are set in the update_admin_profile task.
+        class_path: cumulusci.tasks.salesforce.Deploy
+        options:
+            path: flow_action_components/OpenURL/force-app
+
+    deploy_PostRichChatter:
+        description: Deploys configuration for Development. Assigns page layouts, compact layouts, and sets tab visibilities. Record type visibilities are set in the update_admin_profile task.
+        class_path: cumulusci.tasks.salesforce.Deploy
+        options:
+            path: flow_action_components/PostRichChatter/force-app
+
+    deploy_Quip:
+        description: Deploys configuration for Development. Assigns page layouts, compact layouts, and sets tab visibilities. Record type visibilities are set in the update_admin_profile task.
+        class_path: cumulusci.tasks.salesforce.Deploy
+        options:
+            path: flow_action_components/Quip/force-app
+
+    deploy_RefreshCollectionAction:
+        description: Deploys configuration for Development. Assigns page layouts, compact layouts, and sets tab visibilities. Record type visibilities are set in the update_admin_profile task.
+        class_path: cumulusci.tasks.salesforce.Deploy
+        options:
+            path: flow_action_components/RefreshCollectionAction/force-app
+
+    deploy_RefreshRecords:
+        description: Deploys configuration for Development. Assigns page layouts, compact layouts, and sets tab visibilities. Record type visibilities are set in the update_admin_profile task.
+        class_path: cumulusci.tasks.salesforce.Deploy
+        options:
+            path: flow_action_components/RefreshRecords/force-app
+
+    deploy_SaveRecordsAsync:
+        description: Deploys configuration for Development. Assigns page layouts, compact layouts, and sets tab visibilities. Record type visibilities are set in the update_admin_profile task.
+        class_path: cumulusci.tasks.salesforce.Deploy
+        options:
+            path: flow_action_components/SaveRecordsAsync/force-app
+
+    deploy_SendBetterEmail:
+        description: Deploys configuration for Development. Assigns page layouts, compact layouts, and sets tab visibilities. Record type visibilities are set in the update_admin_profile task.
+        class_path: cumulusci.tasks.salesforce.Deploy
+        options:
+            path: flow_action_components/SendBetterEmail/force-app
+
+    deploy_SendHTMLEmail:
+        description: Deploys configuration for Development. Assigns page layouts, compact layouts, and sets tab visibilities. Record type visibilities are set in the update_admin_profile task.
+        class_path: cumulusci.tasks.salesforce.Deploy
+        options:
+            path: flow_action_components/SendHTMLEmail/force-app
+
+    deploy_SendRichEmailCPE:
+        description: Deploys configuration for Development. Assigns page layouts, compact layouts, and sets tab visibilities. Record type visibilities are set in the update_admin_profile task.
+        class_path: cumulusci.tasks.salesforce.Deploy
+        options:
+            path: flow_action_components/SendRichEmailCPE/force-app
+
+    deploy_SerializeDeserialize:
+        description: Deploys configuration for Development. Assigns page layouts, compact layouts, and sets tab visibilities. Record type visibilities are set in the update_admin_profile task.
+        class_path: cumulusci.tasks.salesforce.Deploy
+        options:
+            path: flow_action_components/SerializeDeserialize/force-app
+
+    deploy_SetSharingManually:
+        description: Deploys configuration for Development. Assigns page layouts, compact layouts, and sets tab visibilities. Record type visibilities are set in the update_admin_profile task.
+        class_path: cumulusci.tasks.salesforce.Deploy
+        options:
+            path: flow_action_components/SetSharingManually/force-app
+
+    deploy_ShowToast:
+        description: Deploys configuration for Development. Assigns page layouts, compact layouts, and sets tab visibilities. Record type visibilities are set in the update_admin_profile task.
+        class_path: cumulusci.tasks.salesforce.Deploy
+        options:
+            path: flow_action_components/ShowToast/force-app
+
+    deploy_SlackActions:
+        description: Deploys configuration for Development. Assigns page layouts, compact layouts, and sets tab visibilities. Record type visibilities are set in the update_admin_profile task.
+        class_path: cumulusci.tasks.salesforce.Deploy
+        options:
+            path: flow_action_components/SlackActions/force-app
+
+    deploy_StringChangers:
+        description: Deploys configuration for Development. Assigns page layouts, compact layouts, and sets tab visibilities. Record type visibilities are set in the update_admin_profile task.
+        class_path: cumulusci.tasks.salesforce.Deploy
+        options:
+            path: flow_action_components/StringChangers/force-app
+
+    deploy_TheFloverrider:
+        description: Deploys configuration for Development. Assigns page layouts, compact layouts, and sets tab visibilities. Record type visibilities are set in the update_admin_profile task.
+        class_path: cumulusci.tasks.salesforce.Deploy
+        options:
+            path: flow_action_components/TheFloverrider/force-app
+
+    deploy_UnlockRecords:
+        description: Deploys configuration for Development. Assigns page layouts, compact layouts, and sets tab visibilities. Record type visibilities are set in the update_admin_profile task.
+        class_path: cumulusci.tasks.salesforce.Deploy
+        options:
+            path: flow_action_components/UnlockRecords/force-app
+
+    deploy_UpdateFields:
+        description: Deploys configuration for Development. Assigns page layouts, compact layouts, and sets tab visibilities. Record type visibilities are set in the update_admin_profile task.
+        class_path: cumulusci.tasks.salesforce.Deploy
+        options:
+            path: flow_action_components/UpdateFields/force-app
+
+    deploy_EmailToFlow:
+        description: Deploys configuration for Development. Assigns page layouts, compact layouts, and sets tab visibilities. Record type visibilities are set in the update_admin_profile task.
+        class_path: cumulusci.tasks.salesforce.Deploy
+        options:
+            path: flow_process_components/EmailToFlow/force-app
+
+    deploy_FlowBaseComponents:
+        description: Deploys configuration for Development. Assigns page layouts, compact layouts, and sets tab visibilities. Record type visibilities are set in the update_admin_profile task.
+        class_path: cumulusci.tasks.salesforce.Deploy
+        options:
+            path: flow_process_components/FlowBaseComponents/force-app
+
+    deploy_flowCombobox:
+        description: Deploys configuration for Development. Assigns page layouts, compact layouts, and sets tab visibilities. Record type visibilities are set in the update_admin_profile task.
+        class_path: cumulusci.tasks.salesforce.Deploy
+        options:
+            path: flow_process_components/flowCombobox/force-app
+
+    deploy_FormulasAndExpressionsLWC:
+        description: Deploys configuration for Development. Assigns page layouts, compact layouts, and sets tab visibilities. Record type visibilities are set in the update_admin_profile task.
+        class_path: cumulusci.tasks.salesforce.Deploy
+        options:
+            path: flow_process_components/FormulasAndExpressionsLWC/force-app
+
+    deploy_MetadataService:
+        description: Deploys configuration for Development. Assigns page layouts, compact layouts, and sets tab visibilities. Record type visibilities are set in the update_admin_profile task.
+        class_path: cumulusci.tasks.salesforce.Deploy
+        options:
+            path: flow_process_components/MetadataService/force-app
+
+    deploy_ScreenFlow:
+        description: Deploys configuration for Development. Assigns page layouts, compact layouts, and sets tab visibilities. Record type visibilities are set in the update_admin_profile task.
+        class_path: cumulusci.tasks.salesforce.Deploy
+        options:
+            path: flow_process_components/ScreenFlow/force-app
+
+    deploy_barcodeScanner:
+        description: Deploys configuration for Development. Assigns page layouts, compact layouts, and sets tab visibilities. Record type visibilities are set in the update_admin_profile task.
+        class_path: cumulusci.tasks.salesforce.Deploy
+        options:
+            path: flow_screen_components/barcodeScanner/force-app
+
+    deploy_clipboardButton:
+        description: Deploys configuration for Development. Assigns page layouts, compact layouts, and sets tab visibilities. Record type visibilities are set in the update_admin_profile task.
+        class_path: cumulusci.tasks.salesforce.Deploy
+        options:
+            path: flow_screen_components/clipboardButton/force-app
+
+    deploy_controllableDisplayTextFSC:
+        description: Deploys configuration for Development. Assigns page layouts, compact layouts, and sets tab visibilities. Record type visibilities are set in the update_admin_profile task.
+        class_path: cumulusci.tasks.salesforce.Deploy
+        options:
+            path: flow_screen_components/controllableDisplayTextFSC/force-app
+
+    deploy_custom-header:
+        description: Deploys configuration for Development. Assigns page layouts, compact layouts, and sets tab visibilities. Record type visibilities are set in the update_admin_profile task.
+        class_path: cumulusci.tasks.salesforce.Deploy
+        options:
+            path: flow_screen_components/custom-header/force-app
+
+    deploy_customFooterFSC:
+        description: Deploys configuration for Development. Assigns page layouts, compact layouts, and sets tab visibilities. Record type visibilities are set in the update_admin_profile task.
+        class_path: cumulusci.tasks.salesforce.Deploy
+        options:
+            path: flow_screen_components/customFooterFSC/force-app
+
+    deploy_datatable:
+        description: Deploys configuration for Development. Assigns page layouts, compact layouts, and sets tab visibilities. Record type visibilities are set in the update_admin_profile task.
+        class_path: cumulusci.tasks.salesforce.Deploy
+        options:
+            path: flow_screen_components/datatable/force-app
+
+    deploy_datatableFSC:
+        description: Deploys configuration for Development. Assigns page layouts, compact layouts, and sets tab visibilities. Record type visibilities are set in the update_admin_profile task.
+        class_path: cumulusci.tasks.salesforce.Deploy
+        options:
+            path: flow_screen_components/datatableFSC/force-app
+
+    deploy_datatableLwcFsc:
+        description: Deploys configuration for Development. Assigns page layouts, compact layouts, and sets tab visibilities. Record type visibilities are set in the update_admin_profile task.
+        class_path: cumulusci.tasks.salesforce.Deploy
+        options:
+            path: flow_screen_components/datatableLwcFsc/force-app
+
+    deploy_datatableV2:
+        description: Deploys configuration for Development. Assigns page layouts, compact layouts, and sets tab visibilities. Record type visibilities are set in the update_admin_profile task.
+        class_path: cumulusci.tasks.salesforce.Deploy
+        options:
+            path: flow_screen_components/datatableV2/force-app
+
+    deploy_dateTimePicker:
+        description: Deploys configuration for Development. Assigns page layouts, compact layouts, and sets tab visibilities. Record type visibilities are set in the update_admin_profile task.
+        class_path: cumulusci.tasks.salesforce.Deploy
+        options:
+            path: flow_screen_components/dateTimePicker/force-app
+
+    deploy_dateTimePickerFSC:
+        description: Deploys configuration for Development. Assigns page layouts, compact layouts, and sets tab visibilities. Record type visibilities are set in the update_admin_profile task.
+        class_path: cumulusci.tasks.salesforce.Deploy
+        options:
+            path: flow_screen_components/dateTimePickerFSC/force-app
+
+    deploy_dependentPicklistsFSC:
+        description: Deploys configuration for Development. Assigns page layouts, compact layouts, and sets tab visibilities. Record type visibilities are set in the update_admin_profile task.
+        class_path: cumulusci.tasks.salesforce.Deploy
+        options:
+            path: flow_screen_components/dependentPicklistsFSC/force-app
+
+    deploy_dualListBoxFSC:
+        description: Deploys configuration for Development. Assigns page layouts, compact layouts, and sets tab visibilities. Record type visibilities are set in the update_admin_profile task.
+        class_path: cumulusci.tasks.salesforce.Deploy
+        options:
+            path: flow_screen_components/dualListBoxFSC/force-app
+
+    deploy_dynamicPicklistFSC:
+        description: Deploys configuration for Development. Assigns page layouts, compact layouts, and sets tab visibilities. Record type visibilities are set in the update_admin_profile task.
+        class_path: cumulusci.tasks.salesforce.Deploy
+        options:
+            path: flow_screen_components/dynamicPicklistFSC/force-app
+
+    deploy_dynamicQuestionFSC:
+        description: Deploys configuration for Development. Assigns page layouts, compact layouts, and sets tab visibilities. Record type visibilities are set in the update_admin_profile task.
+        class_path: cumulusci.tasks.salesforce.Deploy
+        options:
+            path: flow_screen_components/dynamicQuestionFSC/force-app
+
+    deploy_fileUploadImproved:
+        description: Deploys configuration for Development. Assigns page layouts, compact layouts, and sets tab visibilities. Record type visibilities are set in the update_admin_profile task.
+        class_path: cumulusci.tasks.salesforce.Deploy
+        options:
+            path: flow_screen_components/fileUploadImproved/force-app
+
+    deploy_flexcards:
+        description: Deploys configuration for Development. Assigns page layouts, compact layouts, and sets tab visibilities. Record type visibilities are set in the update_admin_profile task.
+        class_path: cumulusci.tasks.salesforce.Deploy
+        options:
+            path: flow_screen_components/flexcards/force-app
+
+    deploy_flowButton:
+        description: Deploys configuration for Development. Assigns page layouts, compact layouts, and sets tab visibilities. Record type visibilities are set in the update_admin_profile task.
+        class_path: cumulusci.tasks.salesforce.Deploy
+        options:
+            path: flow_screen_components/flowButton/force-app
+
+    deploy_flowButtonBar:
+        description: Deploys configuration for Development. Assigns page layouts, compact layouts, and sets tab visibilities. Record type visibilities are set in the update_admin_profile task.
+        class_path: cumulusci.tasks.salesforce.Deploy
+        options:
+            path: flow_screen_components/flowButtonBar/force-app
+
+    deploy_flowCarousel:
+        description: Deploys configuration for Development. Assigns page layouts, compact layouts, and sets tab visibilities. Record type visibilities are set in the update_admin_profile task.
+        class_path: cumulusci.tasks.salesforce.Deploy
+        options:
+            path: flow_screen_components/flowCarousel/force-app
+
+    deploy_flowIframe:
+        description: Deploys configuration for Development. Assigns page layouts, compact layouts, and sets tab visibilities. Record type visibilities are set in the update_admin_profile task.
+        class_path: cumulusci.tasks.salesforce.Deploy
+        options:
+            path: flow_screen_components/flowIframe/force-app
+
+    deploy_flowListFSC:
+        description: Deploys configuration for Development. Assigns page layouts, compact layouts, and sets tab visibilities. Record type visibilities are set in the update_admin_profile task.
+        class_path: cumulusci.tasks.salesforce.Deploy
+        options:
+            path: flow_screen_components/flowListFSC/force-app
+
+    deploy_flowLookupCPE:
+        description: Deploys configuration for Development. Assigns page layouts, compact layouts, and sets tab visibilities. Record type visibilities are set in the update_admin_profile task.
+        class_path: cumulusci.tasks.salesforce.Deploy
+        options:
+            path: flow_screen_components/flowLookupCPE/force-app
+
+    deploy_flowLookupFSC:
+        description: Deploys configuration for Development. Assigns page layouts, compact layouts, and sets tab visibilities. Record type visibilities are set in the update_admin_profile task.
+        class_path: cumulusci.tasks.salesforce.Deploy
+        options:
+            path: flow_screen_components/flowLookupFSC/force-app
+
+    deploy_flowPickerFSC:
+        description: Deploys configuration for Development. Assigns page layouts, compact layouts, and sets tab visibilities. Record type visibilities are set in the update_admin_profile task.
+        class_path: cumulusci.tasks.salesforce.Deploy
+        options:
+            path: flow_screen_components/flowPickerFSC/force-app
+
+    deploy_FlowScreenComponentsBasePack:
+        description: Deploys configuration for Development. Assigns page layouts, compact layouts, and sets tab visibilities. Record type visibilities are set in the update_admin_profile task.
+        class_path: cumulusci.tasks.salesforce.Deploy
+        options:
+            path: flow_screen_components/FlowScreenComponentsBasePack/force-app
+
+    deploy_formattedRichTextFSC:
+        description: Deploys configuration for Development. Assigns page layouts, compact layouts, and sets tab visibilities. Record type visibilities are set in the update_admin_profile task.
+        class_path: cumulusci.tasks.salesforce.Deploy
+        options:
+            path: flow_screen_components/formattedRichTextFSC/force-app
+
+    deploy_getNBARecommendationsFSC:
+        description: Deploys configuration for Development. Assigns page layouts, compact layouts, and sets tab visibilities. Record type visibilities are set in the update_admin_profile task.
+        class_path: cumulusci.tasks.salesforce.Deploy
+        options:
+            path: flow_screen_components/getNBARecommendationsFSC/force-app
+
+    deploy_horizontalRuleFSC:
+        description: Deploys configuration for Development. Assigns page layouts, compact layouts, and sets tab visibilities. Record type visibilities are set in the update_admin_profile task.
+        class_path: cumulusci.tasks.salesforce.Deploy
+        options:
+            path: flow_screen_components/horizontalRuleFSC/force-app
+
+    deploy_ibanLWC:
+        description: Deploys configuration for Development. Assigns page layouts, compact layouts, and sets tab visibilities. Record type visibilities are set in the update_admin_profile task.
+        class_path: cumulusci.tasks.salesforce.Deploy
+        options:
+            path: flow_screen_components/ibanLWC/force-app
+
+    deploy_imageButtonFSC:
+        description: Deploys configuration for Development. Assigns page layouts, compact layouts, and sets tab visibilities. Record type visibilities are set in the update_admin_profile task.
+        class_path: cumulusci.tasks.salesforce.Deploy
+        options:
+            path: flow_screen_components/imageButtonFSC/force-app
+
+    deploy_inputAddressFSC:
+        description: Deploys configuration for Development. Assigns page layouts, compact layouts, and sets tab visibilities. Record type visibilities are set in the update_admin_profile task.
+        class_path: cumulusci.tasks.salesforce.Deploy
+        options:
+            path: flow_screen_components/inputAddressFSC/force-app
+
+    deploy_lightningInputFSC:
+        description: Deploys configuration for Development. Assigns page layouts, compact layouts, and sets tab visibilities. Record type visibilities are set in the update_admin_profile task.
+        class_path: cumulusci.tasks.salesforce.Deploy
+        options:
+            path: flow_screen_components/lightningInputFSC/force-app
+
+    deploy_lookupFSC:
+        description: Deploys configuration for Development. Assigns page layouts, compact layouts, and sets tab visibilities. Record type visibilities are set in the update_admin_profile task.
+        class_path: cumulusci.tasks.salesforce.Deploy
+        options:
+            path: flow_screen_components/lookupFSC/force-app
+
+    deploy_mapFSC:
+        description: Deploys configuration for Development. Assigns page layouts, compact layouts, and sets tab visibilities. Record type visibilities are set in the update_admin_profile task.
+        class_path: cumulusci.tasks.salesforce.Deploy
+        options:
+            path: flow_screen_components/mapFSC/force-app
+
+    deploy_multiMapFSC:
+        description: Deploys configuration for Development. Assigns page layouts, compact layouts, and sets tab visibilities. Record type visibilities are set in the update_admin_profile task.
+        class_path: cumulusci.tasks.salesforce.Deploy
+        options:
+            path: flow_screen_components/multiMapFSC/force-app
+
+    deploy_multiShimFSC:
+        description: Deploys configuration for Development. Assigns page layouts, compact layouts, and sets tab visibilities. Record type visibilities are set in the update_admin_profile task.
+        class_path: cumulusci.tasks.salesforce.Deploy
+        options:
+            path: flow_screen_components/multiShimFSC/force-app
+
+    deploy_navigationButtonFSC:
+        description: Deploys configuration for Development. Assigns page layouts, compact layouts, and sets tab visibilities. Record type visibilities are set in the update_admin_profile task.
+        class_path: cumulusci.tasks.salesforce.Deploy
+        options:
+            path: flow_screen_components/navigationButtonFSC/force-app
+
+    deploy_navigationPath:
+        description: Deploys configuration for Development. Assigns page layouts, compact layouts, and sets tab visibilities. Record type visibilities are set in the update_admin_profile task.
+        class_path: cumulusci.tasks.salesforce.Deploy
+        options:
+            path: flow_screen_components/navigationPath/force-app
+
+    deploy_nextBestActionsFSC:
+        description: Deploys configuration for Development. Assigns page layouts, compact layouts, and sets tab visibilities. Record type visibilities are set in the update_admin_profile task.
+        class_path: cumulusci.tasks.salesforce.Deploy
+        options:
+            path: flow_screen_components/nextBestActionsFSC/force-app
+
+    deploy_ObjectAndFieldPickerFSC:
+        description: Deploys configuration for Development. Assigns page layouts, compact layouts, and sets tab visibilities. Record type visibilities are set in the update_admin_profile task.
+        class_path: cumulusci.tasks.salesforce.Deploy
+        options:
+            path: flow_screen_components/ObjectAndFieldPickerFSC/force-app
+
+    deploy_OrderedListBoxFSC:
+        description: Deploys configuration for Development. Assigns page layouts, compact layouts, and sets tab visibilities. Record type visibilities are set in the update_admin_profile task.
+        class_path: cumulusci.tasks.salesforce.Deploy
+        options:
+            path: flow_screen_components/OrderedListBoxFSC/force-app
+
+    deploy_pdfViewerFSC:
+        description: Deploys configuration for Development. Assigns page layouts, compact layouts, and sets tab visibilities. Record type visibilities are set in the update_admin_profile task.
+        class_path: cumulusci.tasks.salesforce.Deploy
+        options:
+            path: flow_screen_components/pdfViewerFSC/force-app
+
+    deploy_quickChoiceCPE:
+        description: Deploys configuration for Development. Assigns page layouts, compact layouts, and sets tab visibilities. Record type visibilities are set in the update_admin_profile task.
+        class_path: cumulusci.tasks.salesforce.Deploy
+        options:
+            path: flow_screen_components/quickChoiceCPE/force-app
+
+    deploy_quickLookup:
+        description: Deploys configuration for Development. Assigns page layouts, compact layouts, and sets tab visibilities. Record type visibilities are set in the update_admin_profile task.
+        class_path: cumulusci.tasks.salesforce.Deploy
+        options:
+            path: flow_screen_components/quickLookup/force-app
+
+    deploy_recordDetailFSC:
+        description: Deploys configuration for Development. Assigns page layouts, compact layouts, and sets tab visibilities. Record type visibilities are set in the update_admin_profile task.
+        class_path: cumulusci.tasks.salesforce.Deploy
+        options:
+            path: flow_screen_components/recordDetailFSC/force-app
+
+    deploy_richTextInputFSC:
+        description: Deploys configuration for Development. Assigns page layouts, compact layouts, and sets tab visibilities. Record type visibilities are set in the update_admin_profile task.
+        class_path: cumulusci.tasks.salesforce.Deploy
+        options:
+            path: flow_screen_components/richTextInputFSC/force-app
+
+    deploy_scriptDisplayFSC:
+        description: Deploys configuration for Development. Assigns page layouts, compact layouts, and sets tab visibilities. Record type visibilities are set in the update_admin_profile task.
+        class_path: cumulusci.tasks.salesforce.Deploy
+        options:
+            path: flow_screen_components/scriptDisplayFSC/force-app
+
+    deploy_transferMetadata:
+        description: Deploys configuration for Development. Assigns page layouts, compact layouts, and sets tab visibilities. Record type visibilities are set in the update_admin_profile task.
+        class_path: cumulusci.tasks.salesforce.Deploy
+        options:
+            path: flow_screen_components/transferMetadata/force-app
+
+    deploy_workGuide:
+        description: Deploys configuration for Development. Assigns page layouts, compact layouts, and sets tab visibilities. Record type visibilities are set in the update_admin_profile task.
+        class_path: cumulusci.tasks.salesforce.Deploy
+        options:
+            path: flow_screen_components/workGuide/force-app
+
+    deploy_DetectAndLaunch:
+        description: Deploys configuration for Development. Assigns page layouts, compact layouts, and sets tab visibilities. Record type visibilities are set in the update_admin_profile task.
+        class_path: cumulusci.tasks.salesforce.Deploy
+        options:
+            path: lightning_page_components/DetectAndLaunch/force-app
+
+    deploy_reventer:
+        description: Deploys configuration for Development. Assigns page layouts, compact layouts, and sets tab visibilities. Record type visibilities are set in the update_admin_profile task.
+        class_path: cumulusci.tasks.salesforce.Deploy
+        options:
+            path: lightning_page_components/reventer/force-app
+
+flows: 
+    deploy_flow_action_components:
+        description: Deploys all flow action components to an org
+        steps:
+            1:
+                task: deploy_AddQuotesToFields
+            2: 
+                task: deploy_AutolaunchFlow
+            3: 
+                task: deploy_CacheActions
+            4: 
+                task: deploy_CheckValidation
+            5: 
+                task: deploy_CollectionProcessors
+            6: 
+                task: deploy_CommitTransaction
+            7: 
+                task: deploy_ConvertCSVandStringCollection
+            8: 
+                task: deploy_ConvertCSVToRecords
+            9: 
+                task: deploy_DateMatcher
+            10: 
+                task: deploy_DedupeRecordCollection
+            11: 
+                task: deploy_DynamicFlowPackage
+            12: 
+                task: deploy_EvaluateFormula
+            13: 
+                task: deploy_ExecuteNBAStrategy
+            14: 
+                task: deploy_ExecuteSOQLQuery
+            15: 
+                task: deploy_ExtractTextFromNonTextField
+            16: 
+                task: deploy_FilterCollection
+            17: 
+                task: deploy_FindSObjectName
+            18: 
+                task: deploy_FlowActionsBasePack
+            19: 
+                task: deploy_GenerateFlowLink
+            20: 
+                task: deploy_GetFieldInformation
+            21: 
+                task: deploy_GetFieldSetValues
+            22: 
+                task: deploy_GetFlowInfo
+            23: 
+                task: deploy_GetGroupInfo
+            24: 
+                task: deploy_GetLayoutByProfileandRecordType
+            25: 
+                task: deploy_GetLayoutFields
+            26: 
+                task: deploy_GetOpportunityPartners
+            27: 
+                task: deploy_GetPicklistValues
+            28: 
+                task: deploy_GetRandomNumber
+            29: 
+                task: deploy_GetRecordTypeInfobyObject
+            30: 
+                task: deploy_HTTPBuilder
+            31: 
+                task: deploy_LaunchFlowDynamically
+            32: 
+                task: deploy_ListViewActions
+            33: 
+                task: deploy_LoadWebPage
+            34: 
+                task: deploy_ManageFlowInstances
+            35: 
+                task: deploy_ManageTerritories
+            36: 
+                task: deploy_MapDataAction
+            37: 
+                task: deploy_MassTransactor
+            38: 
+                task: deploy_MSTeamsActions
+            39: 
+                task: deploy_MultiselectMagic
+            40: 
+                task: deploy_NavigateEverywhere
+            41: 
+                task: deploy_OpenURL
+            42: 
+                task: deploy_PostRichChatter
+            43: 
+                task: deploy_Quip
+            44: 
+                task: deploy_RefreshCollectionAction
+            45: 
+                task: deploy_RefreshRecords
+            46: 
+                task: deploy_SaveRecordsAsync
+            47: 
+                task: deploy_SendBetterEmail
+            48: 
+                task: deploy_SendHTMLEmail
+            49: 
+                task: deploy_SendRichEmailCPE
+            50: 
+                task: deploy_SerializeDeserialize
+            51: 
+                task: deploy_SetSharingManually
+            52: 
+                task: deploy_ShowToast
+            53: 
+                task: deploy_SlackActions
+            54: 
+                task: deploy_StringChangers
+            55: 
+                task: deploy_TheFloverrider
+            56: 
+                task: deploy_UnlockRecords
+            57: 
+                task: deploy_UpdateFields 
+    
+    deploy_flow_process_components:
+        description: Deploys all flow process components
+        steps:
+            1: 
+                task: deploy_EmailToFlow
+            2: 
+                task: deploy_FlowBaseComponents
+            3: 
+                task: deploy_flowCombobox
+            4: 
+                task: deploy_FormulasAndExpressionsLWC
+            5: 
+                task: deploy_MetadataService
+            6: 
+                task: deploy_ScreenFlow
+
+    deploy_flow_screen_components:
+        description: Deploys all flow screen components
+        steps:
+            1: 
+                task: deploy_ScreenFlow
+            2: 
+                task: deploy_barcodeScanner
+            3: 
+                task: deploy_clipboardButton
+            4: 
+                task: deploy_controllableDisplayTextFSC
+            5: 
+                task: deploy_custom-header
+            6: 
+                task: deploy_customFooterFSC
+            7: 
+                task: deploy_datatable
+            8: 
+                task: deploy_datatableFSC
+            9: 
+                task: deploy_datatableLwcFsc
+            10: 
+                task: deploy_datatableV2
+            11: 
+                task: deploy_dateTimePicker
+            12: 
+                task: deploy_dateTimePickerFSC
+            13: 
+                task: deploy_dependentPicklistsFSC
+            14: 
+                task: deploy_dualListBoxFSC
+            15: 
+                task: deploy_dynamicPicklistFSC
+            16: 
+                task: deploy_dynamicQuestionFSC
+            17: 
+                task: deploy_fileUploadImproved
+            18: 
+                task: deploy_flexcards
+            19: 
+                task: deploy_flowButton
+            20: 
+                task: deploy_flowButtonBar
+            21: 
+                task: deploy_flowCarousel
+            22: 
+                task: deploy_flowIframe
+            23: 
+                task: deploy_flowListFSC
+            24: 
+                task: deploy_flowLookupCPE
+            25: 
+                task: deploy_flowLookupFSC
+            26: 
+                task: deploy_flowPickerFSC
+            27: 
+                task: deploy_FlowScreenComponentsBasePack
+            28: 
+                task: deploy_formattedRichTextFSC
+            29: 
+                task: deploy_getNBARecommendationsFSC
+            30: 
+                task: deploy_horizontalRuleFSC
+            31: 
+                task: deploy_ibanLWC
+            32: 
+                task: deploy_imageButtonFSC
+            33: 
+                task: deploy_inputAddressFSC
+            34: 
+                task: deploy_lightningInputFSC
+            35: 
+                task: deploy_lookupFSC
+            36: 
+                task: deploy_mapFSC
+            37: 
+                task: deploy_multiMapFSC
+            38: 
+                task: deploy_multiShimFSC
+            39: 
+                task: deploy_navigationButtonFSC
+            40: 
+                task: deploy_navigationPath
+            41: 
+                task: deploy_nextBestActionsFSC
+            42: 
+                task: deploy_ObjectAndFieldPickerFSC
+            43: 
+                task: deploy_OrderedListBoxFSC
+            44: 
+                task: deploy_pdfViewerFSC
+            45: 
+                task: deploy_quickChoiceCPE
+            46: 
+                task: deploy_quickLookup
+            47: 
+                task: deploy_recordDetailFSC
+            48: 
+                task: deploy_richTextInputFSC
+            49: 
+                task: deploy_scriptDisplayFSC
+            50: 
+                task: deploy_transferMetadata
+            51: 
+                task: deploy_workGuide
+
+    deploy_lightning_page_components:
+        description: Deploys all lightning page components
+        steps:
+            1: 
+                task: deploy_DetectAndLaunch
+            2: 
+                task: deploy_reventer
+    
+    deploy_all_components:
+        description: Deploys all components to an org
+        steps:
+            1:
+                flow: deploy_flow_action_components
+            2:
+                flow: deploy_flow_process_components
+            3:
+                flow: deploy_flow_screen_components
+            4:
+                flow: deploy_lightning_page_components

@@ -1,0 +1,21 @@
+minimum_cumulusci_version: '3.38.0'
+project:
+    name: LightningFlowComponents
+    package:
+        name: LightningFlowComponents
+        api_version: '52.0'
+    git:
+    source_format: sfdx
+
+tasks:
+    robot:
+        options:
+            suites: robot/LightningFlowComponents/tests
+            options:
+                outputdir: robot/LightningFlowComponents/results
+
+    robot_testdoc:
+        options:
+            path: robot/LightningFlowComponents/tests
+            output: robot/LightningFlowComponents/doc/LightningFlowComponents_tests.html
+
